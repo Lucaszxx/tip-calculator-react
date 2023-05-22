@@ -1,3 +1,7 @@
+import cifrao from '../images/cifrao.png';
+import pessoa from '../images/pessoa.png';
+import "./Calculadora.css"
+
 export function Calculadora() {
     return (
         <main>
@@ -5,6 +9,7 @@ export function Calculadora() {
                 <div className="bill">
                     <label htmlFor="">Conta</label>
                     <div className="input-box">
+                        <img src={cifrao} alt="imagem do cifrao" />
                         <input type="number" id="bill" placeholder="0" />
                     </div>
                 </div>
@@ -23,6 +28,7 @@ export function Calculadora() {
                 <div className="people">
                     <label htmlFor="">Número de pessoas</label>
                     <div className="input-box">
+                        <img src={pessoa} alt="imagem da pessoa" />
                         <input type="number" id="people" placeholder="0"/>
                     </div>
                 </div>
